@@ -14,6 +14,6 @@ end
 
 bash "run npm generator-cloudspace-frontend install" do
   code <<-COMMANDLINE 
-  sudo npm -g install generator-cloudspace-frontend
+  sudo npm -g install git+ssh://git@github.com:cloudspace/generator-cloudspace-frontend.git
   COMMANDLINE
 end
