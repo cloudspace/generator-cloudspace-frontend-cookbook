@@ -1,0 +1,1 @@
+default['generator_cloudspace_frontend']['node_modules_path'] = '/usr/local/lib/node_modules/'
